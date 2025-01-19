@@ -10,15 +10,15 @@ This project automates sending WhatsApp messages using the Twilio API.
    ```
 
 2. Set up your environment variables in the .env file:
-  ```bash
-TWILIO_ACCOUNT_SID=your_account_sid
-TWILIO_AUTH_TOKEN=your_auth_token
-```
+     ```bash
+   TWILIO_ACCOUNT_SID=your_account_sid
+   TWILIO_AUTH_TOKEN=your_auth_token
+   ```
 
 3. Run the script:
-```bash
-python3 wpp_exercise_automation.py
-```
+   ```bash
+   python3 wpp_exercise_automation.py
+   ```
 Scheduling
 The script is set up to send messages at specific times using the schedule library. You can modify the schedule in the script to fit your needs.
 
